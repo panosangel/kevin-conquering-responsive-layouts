@@ -73,9 +73,15 @@ header {
     padding: 1em 0;
 }
 
+.logo {
+    margin-right: 1em;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
+    /*width: 100%*/
+    flex-grow: 1;
 }
 
 .nav__list {
