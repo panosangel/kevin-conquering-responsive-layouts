@@ -73,6 +73,11 @@ header {
     padding: 1em 0;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav__list {
     margin: 0;
     padding: 0;
@@ -80,8 +85,8 @@ header {
     display: flex;
 }
 
-.nav__item {
-    padding-right: 1em;
+.nav__item + .nav__item {
+    padding-left: 1em;
 }
 
 .nav__link {
